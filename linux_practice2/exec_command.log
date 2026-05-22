@@ -1,0 +1,115 @@
+    1  cd server_lesson
+    2  cd /root
+    3  cd server_lesson
+    4  apt update -y && apt install -y git
+    5  docker stop debian
+    6  docker stop debian
+    7  exit
+    8  cd /root
+    9  cd server_lesson
+   10  ls
+   11  ls
+   12  apt update -y && apt install -y git
+   13  git version
+   14  git init
+   15  ls -a
+   16  touch first.txt
+   17  ls
+   18  ls
+   19  pwd
+   20  git status
+   21  cd linux_practice1
+   22  mkdir linux_practice1 && linux_practice
+   23  cd linux_practice1
+   24  mkdir public
+   25  cd public
+   26  touch index.php
+   27  ls
+   28  cp public tmp
+   29  cp index.php index_bk.php
+   30  ls
+   31  cd ..
+   32  cp -r public tmp
+   33  ls
+   34  cd tmp
+   35  ls
+   36  rm index_bk.php 
+   37  ls
+   38  cd ..
+   39  cd ..
+   40  ls
+   41  touch README.md
+   42  ls
+   43  vi README.md
+   44  apt update -y && apt install -y vim
+   45  vi README.md
+   46  echo 'Hello World' > README.md
+   47  cat README.md
+   48  vi README.md
+   49  export LANG=ja_JP.UTF-8
+   50  echo "set encoding=utf-8" >> ~/.vimrc
+   51  vi README.md
+   52  ls
+   53  mkdir linux_practice2
+   54  ls
+   55  cd linux_practice2
+   56  ls
+   57  mkdir documents
+   58  ls
+   59  cd documentes
+   60  ls
+   61  cd documents/
+   62  touch gizumo{01..50}.md
+   63  ls
+   64  touch .gitignore
+   65  ls
+   66  ls -a
+   67  mkdir trash
+   68  ls
+   69  rm trash
+   70  rm -r trash
+   71  ls
+   72  cd ..
+   73  mkdir trash
+   74  ls
+   75  mv documents/gizumo{20..40}.md trash/
+   76  ls
+   77  cd trash
+   78  ls
+   79  ls
+   80  cd ..
+   81  ls
+   82  ls
+   83  cd documents/
+   84  ld
+   85  ls
+   86  ls -a
+   87  rm .gitignore
+   88  ls
+   89  ls -a
+   90  cd..
+   91  cd ..
+   92  ls
+   93  touch .gitignore
+   94  ls
+   95  ls -a
+   96  vim .gitignore
+   97  git status
+   98  git diff
+   99  git add .
+  100  git status
+  101  git reset documents/gizumo{20..40}.md
+  102  git status
+  103  vim .gitignore
+  104  vim .gitignore
+  105  git status
+  106  git reset
+  107  git status
+  108  git rm --cached -r .
+  109  git rm -r --cached documents
+  110  git status
+  111  git add .
+  112  git status
+  113  history 300 > linux_practice2/exec_command.log
+  114  cd ..
+  115  history 300 > linux_practice2/exec_command.log
